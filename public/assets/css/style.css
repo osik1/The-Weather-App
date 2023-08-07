@@ -1,0 +1,196 @@
+*{margin: 0px; padding: 0px ; box-sizing:border-box;}
+html, body{ height: 100% ;width: 100%;padding: 0px;margin: 0px; font-family: 'Poppins';}
+h1{ margin: 5px;color: #22A45D;/* font-family: 'poppings'; */}
+a{ text-decoration: none; color: #22A45D; }
+a:hover{ color: #02642e; }
+.btn{ padding: .4rem 1rem; background: #22A45D; color: #ffffff;border: 1px solid transparent;border-radius: 10px;font-size: 12px;font-weight: 700;}
+.save-btn{ padding: .4rem 1rem;background: transparent;color: #000000;border: 2px solid #22A45D;}
+.btn:hover{background: #02642e;color: #fff;}
+.btn-big{padding: .7rem 1.3rem ;line-height: 1.3rem ;width: 100% ;font-size: 25px;}
+.text-input{ padding: .7rem 1rem;display: block; width: 100%; border-radius: 15px;outline: none; color: #000000;line-height: 1.5rem;font-size: 20px;background: #F3F3FC;border: 1px solid #d8d8db;}
+input[type=text]:focus,[type=email]:focus,[type=password]:focus, textarea:focus {box-shadow: 0 0 5px #02642e;border: 1px solid #02642e;}
+input[type=text],[type=email],[type=password], textarea {-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;-ms-transition: all 0.30s ease-in-out;-o-transition: all 0.30s ease-in-out;outline: none;border: 1px solid #DDDDDD;}
+.msg{width: 50%;margin: 5px auto;padding: 8px;border-radius: 20px;list-style: none;}
+.alert-success{width:auto; text-align: center; color: #fff;border: 1px solid rgb(59, 184, 59);background: #22A45D;border-radius: 10px;padding: 5px;}
+.alert-error{width:auto; text-align: center; color:#fff;border: 1px solid red;background: rgb(170, 3, 3);border-radius: 10px;padding: 5px;}
+.text-danger{ color: red; font-size: 12px; font-weight: 600; }
+
+/*Scroll customization*/
+::-webkit-scrollbar{width: 7px;}
+::-webkit-scrollbar-thumb{ border-radius: 10px; background: #666666; box-shadow: inset 0 0 6px #000000; }
+::-webkit-scrollbar-track{ border-radius: 10px; background: white;box-shadow: inset 0 0 6px #000000; }
+/*///Scroll customization*/
+
+/************************* AUTH STYLING *************************/
+.page-wrapper{width: 100%; min-height: 100%; display:flex; }
+.signup-page{ height: 100%; flex: 1; border-radius: 20px; background-color: #ffffff; }
+.signup-page .logo-box{ width: 50%; padding-left: 50px; padding-top: 50px; }
+.signup-page .logo-box img{ width: 200px; }
+.signup-page form{ width: 70%; height: 100%; margin: 50px auto; /*to centralize the form vertically*/padding: 25px; }
+.signup-page form p{ font-size: 12px; color: #666666; }
+.signup-page .form-header{ font-size: 50px; font-family: 'Poppins'; }
+.signup-page form label{ color: #000000; font-size: 20px; font-weight: 700; }
+.signup-page form input[type=checkbox]{ width: 10px; height: 10px; outline: 1px solid #22A45D; box-shadow: none; padding-left: 10%; }
+.signup-page form .Remember{ width: 100%; display: flex; }
+.signup-page form .Remember .r-me{ flex: 1; }
+.signup-page form .Remember .r-me span{ font-size: 12px; color: #000000; }
+.signup-page form .Remember .f-passw{ flex: 1; }
+.signup-page form .forgot-pass{ color: #000000; text-decoration: underline; padding-left: 30%; font-size: 12px; }
+.signup-page form .forgot-pass:hover{ color: #02642e; }
+.signup-page form .social-login{ width: 100%; }
+.signup-page form .social-header{ width: 100%; display: flex; /* margin: 10px auto; */ }
+.signup-page form .social-header  .head{ flex: 1;text-align: center; }
+.signup-page form .social-header .line1, .line2{ flex: 1; padding-top: 3%; }
+.signup-page form .social-login .social-links{ display: flex; width: 70%; margin: 20px auto; }
+.signup-page form .social-login .social-links .facebook, .signup-page form .social-login .social-links .twitter,
+.signup-page form .social-login .social-links .google{ flex: 1; border: 2px solid #d8d8db; border-radius: 20px; margin-right: 20px; text-align: center;}
+.signup-page form .social-login .social-links .google:hover, .facebook:hover, .twitter:hover{ background: #dadbdb; transition: all .3s; }
+.signup-page form .social-login .social-links .facebook img,.signup-page form .social-login .social-links .twitter img,
+.signup-page form .social-login .social-links .google img{ width: 40px; height: 40px; padding-top: 5px;  } 
+.image-banner{ max-height: 100%; flex: 1; }
+.image-banner img{ width: 100%; height: 100%; }
+.form-footer{ width: 60%; margin: 50px auto; }
+.form-footer p{ font-size: 12px; }
+/************************* AUTH STYLING *************************/
+
+
+/************************* HEADER STYLING *************************/
+header{ height: 66px; width: 100%; background: #ffffff;}
+header .items{ width: 100%; display: flex; }
+header .items .logos{ flex: 1; }
+header .items .logos .edapp-logo img{ width: 150px; margin-left: 1em; margin-right: 3em; }
+header .items .logos .sd-logo img{ width: 70px; margin-top: 5px; }
+header .items .icons{ display: flex; }
+header .items .icons .search-sec .search-input{ width: 200px; margin-top: 12px; margin-right: 10px; line-height: 1.5rem; font-size: 12px; background: #F3F3FC; border: 1px solid #d8d8db;border-radius: 20px;padding: .3rem 1rem;display: block;outline: none;color: #000000;}
+header .items .icons .lamp{ border: 1px  solid #000000;height: 40px;width: 40px;margin-top: 10px;margin-right: 10px;float: right;border-radius: 10px;background: #000000;cursor: pointer;}
+header .items .icons .lamp img{width: 30px;margin-top: 5px;margin-left: 3px;}
+header .items .icons .lamp span{height:auto;z-index: 0;color: #22A45D;display: none;width:80px;border-radius: 5px;font-size: 12px;}
+header .items .icons .lamp:hover span{display: block;}
+header .items .icons .chats{position:relative; border: 1px  solid #d8d8db;height: 40px;width: 40px;margin-top: 10px;text-align: center; margin-right: 10px;border-radius: 10px;background: #f2f4f6;cursor: pointer;}
+header .items .icons .chats:hover .chat-dropContent{display: block;}
+header .items .icons .chats img{ width: 30px;margin-top: 5px}
+header .items .icons .chats .chat-dropContent{width: 300px;max-height: 200px;float: left;right: 0px;overflow-y: auto;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);list-style: none; display: none; position: absolute; background-color: #d8d8db;z-index: 88888;margin-top: 0px;border-radius: 10px;}
+header .items .icons .chats .chat-dropContent a {border-bottom: 1px solid #fff; color: black;padding: 5px 5px;text-decoration: none;display: block;font-weight: 700;}
+header .items .icons .profile-pic{height: 40px;width: 40px;margin-top: 10px;margin-right: 10px;position: relative;cursor: pointer;}
+header .items .icons .profile-pic:hover .dropdown-content{display: block;}
+header .items .icons .profile-pic img{width: 100%;height: 100%;border-radius: 100%;}
+/* header .items .icons .profile-pic .dropdown {position: relative;display: inline-block;} */
+header .items .icons .profile-pic .dropdown-content {list-style: none; display: none;position: absolute;background-color: #d8d8db;min-width: 100px;z-index: 0;margin-top: 0px;border-radius: 10px;}
+header .items .icons .profile-pic .dropdown-content a {border-bottom: 1px solid #fff; color: black;padding: 5px 5px;text-decoration: none;display: block;font-weight: 700;}
+header .items .icons .profile-pic .dropdown-content a:hover,header .items .icons .chats .chat-dropContent a:hover  {color: #22A45D;}
+header .items .icons .profile-pic .dropdown-content.show,header .items .icons .chats .chat-dropContent.show {display: block;}
+header .items .icons .username{margin-right: 70px;font-size: 15px;margin-top: 10px;}
+header .items .icons .username  .title{font-size: 12px;color: #666666;}
+.menu-bar{display: none;}
+.menu-bar img{width: 60px; padding-left: 25px;}
+.menubar-icons {display: none;}
+
+/************************* HEADER STYLING *************************/
+
+/************************* SIDEBAR STYLING *************************/
+.dashboard-wrapper{display: flex;width: 100%;height:calc(100% - 60px);}
+.dashboard-wrapper .left-sidebar {flex: 2;/*it will occupy 20% of the space*/height: 100% ;background-color:#ffffff;}
+.dashboard-wrapper .left-sidebar .sidebar-logo {display: none;}
+.dashboard-wrapper .left-sidebar p{color: #22A45D;font-size: 19px;text-align: center;padding-top: 20px;padding-bottom: 20px;}
+.dashboard-wrapper .left-sidebar ul{list-style: none;margin: 0px;padding: 0px;color: black;padding-left: 25px;font-size: 15px;}
+.dashboard-wrapper .left-sidebar ul li a{padding: 3px;display: block; /*to span the whole width*/color: #000000;}
+.dashboard-wrapper .left-sidebar ul li a:hover{ color: #22A45D;}
+.dashboard-wrapper .left-sidebar ul li  a.active{ color: #22A45D; font-weight: 600;}
+/************************* SIDEBAR STYLING *************************/
+
+/************************* DASHBOARD CONTENT STYLING *************************/
+.dashboard-wrapper .dashboard-content {flex: 8;/*it will occupy 80% of the space*/height: 100%;background: #f2f4f6;color: #000000;width: 100%;max-width:100%; padding: 23px 40px 40px; overflow-y: scroll;  /* this will enable us to scroll the content when the post are many */}
+.dashboard-wrapper .dashboard-content .header-box{width: 100%; background:#fafbfc;height: 150px;border-radius: 5px;display: flex; box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+.dashboard-wrapper .dashboard-content .header-box .icon{width: 60px;height: 60px;border-radius: 5px;padding-left: 30px;padding-top: 30px;margin-right: 20px;}
+.dashboard-wrapper .dashboard-content .header-box .icon img{width: 70px;height: 70px;background-color: #ffffff;padding: 10px;border-radius: 5px;}
+.dashboard-wrapper .dashboard-content .header-box .heading{padding: 40px;padding-right: 40px;}
+.dashboard-wrapper .dashboard-content .header-box .heading .title{font-size: 20px;}
+.dashboard-wrapper .dashboard-content .header-box .heading .bio{font-size: 15px;color: #666666;}
+.dashboard-wrapper .dashboard-content .stats{width: 100%;height: 200px;display: flex;margin-top: 20px;border-radius: 5px;}
+.dashboard-wrapper .dashboard-content .stats .stat-one{margin-right: 20px;width: 250px;}
+.dashboard-wrapper .dashboard-content .stats .stat-one .week{flex: 1;background: #fafbfc;height: 45%;margin-bottom: 20px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+.dashboard-wrapper .dashboard-content .stats .stat-one .week .amount .cal{padding: 10px;font-size: 12px;color: #666666;}
+.dashboard-wrapper .dashboard-content .stats .stat-one .week .amount .money,
+.dashboard-wrapper .dashboard-content .stats .stat-one .income .money{font-size: 20px;font-weight: 700;padding-left: 10px;}
+.dashboard-wrapper .dashboard-content .stats .stat-one .income{flex: 1;height: 45%;background: #fafbfc;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+.dashboard-wrapper .dashboard-content .stats .stat-one .income .in{padding: 10px;font-size: 15px;color: #666666;}
+.dashboard-wrapper .dashboard-content .stats .stat-one .income .percent{color: #22A45D;float: right;}
+.dashboard-wrapper .dashboard-content .stats .stat-two{flex: 1;background:#fafbfc;margin-right: 20px;height: 100%;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);text-align: center; }
+.dashboard-wrapper .dashboard-content .stats .stat-two .rev{color: #666666;font-size: 12px;padding-left: 5px;}
+.dashboard-wrapper .dashboard-content .stats .stat-two .revenue{font-size: 20px;font-weight: 700;padding-left: 60%;}
+.dashboard-wrapper .dashboard-content .stats .stat-three{flex: 1;width: 100%;background: #fafbfc;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+.dashboard-wrapper .dashboard-content .form-wrapper{width: 100%;background: #fafbfc;height: auto;margin-top: 20px;border-radius: 5px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+.dashboard-wrapper .navigation li a.active{border-bottom: 2px solid #22A45D; font-weight: 600;}
+.dashboard-wrapper .navigation img{width: 20px;}
+.dashboard-wrapper .dashboard-content .form-wrapper h2{padding: 12px;}
+.dashboard-wrapper .dashboard-content .form-wrapper ul{margin: 0px;padding:0px;list-style: none;padding-top: 20px;}
+.dashboard-wrapper .dashboard-content .form-wrapper ul li{float: left;position: relative;}
+.dashboard-wrapper .dashboard-content .form-wrapper ul li a{color: #000000;padding: 10px;font-size: 12px;}
+.dashboard-wrapper .dashboard-content .form-wrapper ul li a:hover{color: #02642e;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box{width: 100%;display: flex;margin-top: 20px;padding: 20px;border-top: 1px solid #d8d8db;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box label{font-size: 12px;}
+
+/*////////////////////////////////////// Profile Styling ///////////////////////////////////////////////////*/
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box form {display: flex;width: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-details{background-color: #DDDDDD;font-size: 15px; padding: 5px;border-radius: 5px;margin-bottom: 5px;width: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit{flex: 1;width: 100%;margin-right: 30px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .profile-box{border-radius: 100%;width: 100px; height: 100px;border: 2px solid #22A45D;margin: 50px auto;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .profile-box img{width: 100%;height: 100%;border-radius: 100%;}
+
+.profile-edit .profile-box img:hover{opacity: 0.9;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads{flex:1; display: flex;font-size: 12px;text-align: center;width: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads .capture{flex: 1;margin: auto;text-align: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads img:hover{background-color: #dadbdb;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads .capture img{width: 40px;padding: 5px 5px; border: 1px solid #666666;border-radius: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads .upload{flex: 1;margin: auto;text-align: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads .upload img{width: 40px;border: 1px solid #666666;border-radius: 100%;padding: 5px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .radio{display: flex;justify-content: center;align-items: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .radio label{padding-top: 20%;margin-left: 20px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .radio .radios{display: flex;padding-top: 30%;align-items: center;padding-right: 40px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .radio .radios p{font-size: 12px;padding-left: 5px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .text-input{width:100%; padding: .5rem 0.2rem;display: block;border-radius: 5px;outline: none;color: #000000;line-height: 1.2rem;font-size: 15px;background: #ffffff;border: 1px solid #d8d8db; }
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .form-one{flex: 1;margin-right: 30px;width: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .form-two{flex: 1;margin-right: 30px;width: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .form-three{flex: 1;width: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .form-three textarea{width: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .buttons{display:flex; padding-left: 100px;padding-top: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .buttons .btn {margin-right: 5px;}
+
+/************************** Weather pages styling ******************************/
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-search{border-top: 1px solid #d8d8db;margin-top: 30px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-search form{width: 70%;margin: 50px auto;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-search .weather-search-header{text-align: center;padding-top: 10px;}
+/* .dashboard-wrapper .dashboard-content .form-wrapper .weather-search .search{width: 70%; margin: 50px auto;} */
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data, .dashboard-wrapper .dashboard-content .form-wrapper .air-data{display:flex; margin-top: 20px;padding: 20px;border-top: 1px solid #d8d8db;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data{display:flex; margin-top: 20px;padding: 20px;border-top: 1px solid #d8d8db;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-header{margin-top: 20px;width: 100%;text-align: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-header .date,.weather-header .air-header,.weather-forecast-data h3,.explanation h3{color: #22A45D;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data{flex:3;margin-right: 5px;padding-bottom: 20px; background-color:#fff;width: 100%;border-radius:5%;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);}
+.dashboard-wrapper .dashboard-content .form-wrapper .air-data .data{flex:1;margin-right: 5px;padding-bottom: 20px; background-color:#fff;width: 100%;border-radius:5%;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);}
+.dashboard-wrapper .dashboard-content .form-wrapper .air-data .explanation{flex:1;padding:10px;margin-right: 5px;padding-bottom: 20px; background-color:#fff;width: 100%;border-radius:5%;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);}
+.dashboard-wrapper .dashboard-content .form-wrapper .air-data .explanation .air,.components-note{text-align: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data{margin-right: 5px;padding-bottom: 20px; background-color:#fff;width: 100%;border-radius:5%;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data1,.dashboard-wrapper .dashboard-content .form-wrapper .air-data .data .data1,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data1{width: 100%;text-align: center;margin-top: 10px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data1 .weather-des .main,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data1 .weather-des .main{font-size: 17px;font-weight: 700;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data1 .weather-des img,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data1 .weather-des img{width: 100px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data2,.dashboard-wrapper .dashboard-content .form-wrapper .air-data .data .data2,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data2 {width: 100%;text-align: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data2 .temp p,.dashboard-wrapper .dashboard-content .form-wrapper .air-data .data .data1 .air-quality .qlty,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data2 .temp p{font-size: 20px;font-weight: 700;color: #22A45D;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data2 .temp img,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data2 .temp img{width: 40px;margin-top: 15px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data2 .humidity img,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data2 .humidity img{width: 20px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data3,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data3 {width: 100%;display: flex;padding: 10px;text-align: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data3 .sunrise,.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data3 .sunset,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data3 .sunset,.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data3 .sunrise {flex: 1;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data3 img,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data3 img{width: 30px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data3 p,
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data3 p{font-size: 15px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data #map {flex:7; height: 450px;width: 100%;}
+/************************* DASHBOARD CONTENT STYLING *************************/

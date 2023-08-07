@@ -1,0 +1,165 @@
+@media(max-width:1200px) {
+/* Farmers profile form styling */
+/* .dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit{padding: 15px;} */
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box form .form-one{margin-right: 10px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box form .form-two{margin-right: 10px;}
+/* Weather page styling */
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data{flex:4; }
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data #map {flex:6;}
+
+
+}
+
+@media(max-width:1000px) {
+/* AUTH STYLING */
+.page-wrapper{width: 100%;}
+.signup-page{ margin: 50px auto; padding: 20px;}
+.image-banner{ display: none; }
+.signup-page .logo-box{ position: relative;}
+.signup-page form .social-login .social-links{ display: flex; width: 70%; margin: 20px auto; }
+/* HEADER STYLING */
+header .items .logos .sd-logo{display: none;}
+.dashboard-wrapper .left-sidebar .sidebar-logo {width: 100%;text-align: center;display: block;}
+.dashboard-wrapper .left-sidebar .sidebar-logo .sd-logo img{width: 70px;}
+header .items .icons .username{margin-right: 20px;}
+/* DASHBOARD CONTENT STYLING */
+.dashboard-wrapper .dashboard-content { padding: 20px 10px 10px; }
+.dashboard-wrapper .dashboard-content .stats .stat-one{margin-right: 10px;width: 230px;}
+.dashboard-wrapper .dashboard-content .stats .stat-two{margin-right: 10px;}
+/* Farmers profile form styling */
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box form{display: block;padding-top: 0px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit {width: 100%;margin-right: 0;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .profile-box{margin:50px auto;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads{display: flex;margin: 50px auto;margin-top: 0px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads .capture{margin: auto;text-align: center;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .radio{padding-top: 0px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .radio .radios{padding-top: 0px;align-items: center;padding-right: 40px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .radio label{padding-top: 0px;margin-right: 5px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .buttons{padding-top: 5px;width: 100%;padding-left: 0px;}
+/* Weather page styling */
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data3 {width: 100%;padding: 0px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data .data .data3 {width: 100%;padding: 0px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data{padding: 5px;}
+
+}
+
+@media(max-width:750px) {
+/* Weather page styling */
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-forecast-data{display:block;}
+}
+
+@media(max-width:700px) {
+.dashboard-wrapper .dashboard-content .stats .stat-one{margin-right: 5px;width: 200px;}
+.dashboard-wrapper .dashboard-content .stats .stat-two{margin-right: 5px;}
+/* Weather page styling */
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data{display:block;}
+
+}
+
+@media(max-width:660px) {
+/* HEADER STYLING */
+header .items .logos{width: 10%; }
+header .items .logos .edapp-logo img{ width: 150px; margin-left: 2px; margin-right: 0px; }
+header .items .icons{ margin-left: 2px; }
+/* SIDEBAR STYLING */
+.dashboard-wrapper {width: 100%;height:100%;}
+.dashboard-wrapper .left-sidebar {display: none; position: absolute;z-index: 1;}
+.left-sidebar.show {left: 0;display: block;}
+.nav{display: flex; width:100%; height: 70px;border-top: 2px solid #d8d8db ;}
+.menu-bar{display: block; flex: 1; padding-top: 0px;}
+.menu-bar img{padding-left: 5px;}
+/* DASHBOARD CONTENT STYLING */
+.dashboard-wrapper .dashboard-content {width: 100%; padding: 23px 10px 10px;height: 100%;}
+}
+
+@media(max-width:600px) {
+/* HEADER STYLING */
+.menubar-icons{display: flex; float: right; padding-top: 0px;}
+.menubar-icons .lamp{display: none; border: 1px  solid #000000;height: 40px;width: 40px;margin-top: 10px;margin-right: 10px;float: right;border-radius: 10px;background: #000000;}
+.menubar-icons .lamp img{width: 30px;margin-top: 5px;margin-left: 3px;}
+.menubar-icons .chats{position:relative;display:none; border: 1px  solid #d8d8db;height: 40px;width: 40px;margin-top: 10px;text-align: center; margin-right: 10px;border-radius: 10px;background: #f2f4f6;}
+.menubar-icons .chats .chat-dropContent{width: 180px;max-height: 200px;overflow-y: auto;float:left;right: 0px;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); margin: 0;padding: 0;list-style: none; display: none; position: absolute; background-color: #d8d8db;z-index: 88888;margin-top: 0px;border-radius: 10px;}
+.menubar-icons.chats .chat-dropContent a {border-bottom: 1px solid #fff; color: black;padding: 5px 5px;text-decoration: none;display: block;font-weight: 700;}
+.menubar-icons .chats img{ width: 30px;margin-top: 5px}
+.menubar-icons .chats:hover .chat-dropContent{display: block;}
+header .items .icons .profile-pic,header .items .icons .username{display: none;}
+.menubar-icons .profile-pic{height: 40px;width: 40px;margin-top: 10px;margin-right: 10px;position: relative;}
+.menubar-icons .profile-pic:hover .dropdown-content{display: block;}
+.menubar-icons .profile-pic img{width: 100%;height: 100%;border-radius: 100%;}
+/* .menubar-icons .profile-pic .dropdown {position: relative;display: inline-block;} */
+.menubar-icons .profile-pic .dropdown-content {display: none;position: absolute;list-style: none; background-color: #d8d8db;min-width: 100px;z-index: 1;margin-top: 0px;border-radius: 10px;}
+.menubar-icons .profile-pic .dropdown-content a {border-bottom: 1px solid #fff;color: black;padding: 5px 5px;text-decoration: none;display: block;font-weight: 700;}
+.menubar-icons .profile-pic .dropdown-content a:hover,.menubar-icons.chats .chat-dropContent a:hover  {color: #22A45D;}
+.menubar-icons .profile-pic .dropdown-content.show,.menubar-icons .chats .chat-dropContent.show {display: block;}
+.menubar-icons .username{margin-right: 10px;font-size: 15px;margin-top: 10px;}
+.menubar-icons .username  .title{font-size: 12px;color: #666666;}
+/* AUTH STYLING */
+.signup-page .logo-box{padding-top: 10px; }
+.signup-page{ width: 100%;}
+.signup-page form{ width: 95%; }
+.signup-page form .social-login .social-links{width: 100%;}
+/* DASHBOARD CONTENT STYLING */
+.dashboard-wrapper .dashboard-content .stats{height: auto;display: block;width: 100%;margin-bottom: 10px;}
+.dashboard-wrapper .dashboard-content .stats .stat-one{width: 100%;}
+.dashboard-wrapper .dashboard-content .stats .stat-one .week,
+.dashboard-wrapper .dashboard-content .stats .stat-one .income{height: 100px;margin-bottom: 10px;}
+.dashboard-wrapper .dashboard-content .stats .stat-one .week .amount .money,
+.dashboard-wrapper .dashboard-content .stats .stat-one .income .money{font-size: 15px;font-weight: 700;}
+.dashboard-wrapper .dashboard-content .stats .stat-two{margin-bottom: 10px;min-height: 200px;margin-right: 0px;}
+.dashboard-wrapper .dashboard-content .stats .stat-three{min-height: 200px;}
+
+
+}
+
+@media(max-width:461px) {
+/* HEADER STYLING */
+header .items .icons .chats{display: none;}
+.menubar-icons .chats{display: block;}
+/* AIR POLUTION STYLING */
+.dashboard-wrapper .dashboard-content .form-wrapper .air-data{display:block;}
+.dashboard-wrapper .dashboard-content .form-wrapper .air-data .explanation{margin-top:20px ;}
+
+}
+
+@media(max-width:410px) {
+/* HEADER STYLING */
+header .items .icons .lamp{display: none;}
+.menubar-icons .lamp{display: block;}
+.dashboard-wrapper .dashboard-content .header-box .heading{padding-top: 20px;padding: 20px;padding-right: 20px;}
+}
+@media(max-width:400px) {
+/* AUTH STYLING */
+.signup-page form{ width: 100%; padding: 5px; }
+.form-footer{ width: 90%;}
+/* WEATHER PAGE  */
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-search form{width: 90%;}
+
+}
+@media(max-width:365px) {
+/* HEADER STYLING */
+header .items .logos .edapp-logo img{ width: 120px; margin-left: 1px; }
+header .items .icons .search-sec .search-input{ width: 150px; margin-right: 1px; line-height: 1rem; font-size: 12px; background: #F3F3FC; border: 1px solid #d8d8db;padding: .3rem 1rem;}
+.menu-bar img{width: 50px;}
+.menubar-icons{margin-right: 4px;}
+.menubar-icons .lamp,.menubar-icons .chats{height: 35px;width: 35px;}
+.menubar-icons .lamp img,.menubar-icons .chats img{width: 25px;}
+}
+@media(max-width:350px) {
+/* HEADER STYLING */
+.menu-bar img{padding-left: 1px;}
+.menubar-icons .profile-pic{height: 35px;width: 35px;margin-right: 5px;}
+/* AUTH STYLING */
+.signup-page form{padding: 0px; }
+.signup-page form .forgot-pass{  padding-left: 10%;}
+.signup-page form .social-header  .head{ padding: 1px; }
+
+/************************** Weather pages styling ******************************/
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-data{padding: 5px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .weather-header{margin-top: 35px;}
+
+}
+
+@media(max-width:264px) {
+/* AUTH STYLING */
+
+}
