@@ -233,7 +233,7 @@ class WeatherController extends Controller
             'Content-Type' => 'application/json',
             'Accept' => 'text/plain',
             'Ready-API-Key' => '',//API KEY HERE
-        ])->post('https://apps.arl.noaa.gov/ready2/api/v1/sounding', [
+        ])->post(env('NOAA_URL'), [
             'meteorologicalData' => $input['meteorologicalData'],
             'latitude' => $input['latitude'],
             'longitude' => $input['longitude'],

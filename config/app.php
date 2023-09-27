@@ -54,9 +54,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://weather-app-production-b1b7.up.railway.app/'),
+    'url' => env('APP_URL'),
 
-    'asset_url' => 'https://weather-app-production-b1b7.up.railway.app/',
+    'asset_url' => env('ASSET_URL'),
 
     /*
     |--------------------------------------------------------------------------
