@@ -232,7 +232,7 @@ class WeatherController extends Controller
         $response = Http::withHeaders([
             'Content-Type' => 'application/json',
             'Accept' => 'text/plain',
-            'Ready-API-Key' => '',//API KEY HERE
+            'Ready-API-Key' => env('NOAA_API_KEY'),//API KEY HERE
         ])->post(env('NOAA_URL'), [
             'meteorologicalData' => $input['meteorologicalData'],
             'latitude' => $input['latitude'],
