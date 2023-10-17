@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'pgsql',
+    'default' => 'mysql',
 
     /*
     |--------------------------------------------------------------------------
@@ -43,34 +43,14 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
-        // 'mysql' => [
-        //     'driver' => 'mysql',
-        //     'url' => '',
-        //     'host' => env('DB_HOST'),
-        //     'port' => '3306',
-        //     'database' => env('DB_DATABASE'),
-        //     'username' => env('DB_USERNAME'),
-        //     'password' => '',
-        //     'unix_socket' => env('DB_SOCKET', ''),
-        //     'charset' => 'utf8mb4',
-        //     'collation' => 'utf8mb4_unicode_ci',
-        //     'prefix' => '',
-        //     'prefix_indexes' => true,
-        //     'strict' => true,
-        //     'engine' => null,
-        //     'options' => extension_loaded('pdo_mysql') ? array_filter([
-        //         PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-        //     ]) : [],
-        // ],
-
         'mysql' => [
             'driver' => 'mysql',
-            'url' => 'mysql://root:OLIusUF0jABnfU2ExLwj@containers-us-west-42.railway.app:6904/railway',
-            'host' => 'containers-us-west-42.railway.app',
-            'port' => '6904',
-            'database' => 'railway',
-            'username' => 'root',
-            'password' => 'OLIusUF0jABnfU2ExLwj',
+            'url' => '',
+            'host' => env('DB_HOST'),
+            'port' => '3306',
+            'database' => env('DB_DATABASE'),
+            'username' => env('DB_USERNAME'),
+            'password' => '',
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -82,6 +62,26 @@ return [
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
+
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'url' => 'mysql://root:OLIusUF0jABnfU2ExLwj@containers-us-west-42.railway.app:6904/railway',
+        //     'host' => 'containers-us-west-42.railway.app',
+        //     'port' => '6904',
+        //     'database' => 'railway',
+        //     'username' => 'root',
+        //     'password' => 'OLIusUF0jABnfU2ExLwj',
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'prefix_indexes' => true,
+        //     'strict' => true,
+        //     'engine' => null,
+        //     'options' => extension_loaded('pdo_mysql') ? array_filter([
+        //         PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+        //     ]) : [],
+        // ],
 
         'pgsql' => [
             'driver' => 'pgsql',

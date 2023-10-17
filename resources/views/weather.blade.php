@@ -30,7 +30,7 @@
             </div>
             <div class="heading">
                 <p class="title">Weather Panel</p>
-                <p class="bio">Plant in a favorable season</p>
+                <p class="bio">Weather data for you based on your location.</p>
             </div>
         </div>
       
@@ -82,6 +82,6 @@
     </div>
 
    </div> 
-    <script type="text/javascript" src="{{ asset('assets/js/scripts.js')}}"></script>
+    <script src="{{ asset('assets/js/scripts.js')}}"></script>
 </body>
 </html>

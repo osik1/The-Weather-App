@@ -22,11 +22,11 @@ input[type=text],[type=email],[type=password], textarea {-webkit-transition: all
 /*///Scroll customization*/
 
 /************************* AUTH STYLING *************************/
-.page-wrapper{width: 100%; min-height: 100%; display:flex; }
+/* .page-wrapper{width: 100%; min-height: 100%; display:flex; }
 .signup-page{ height: 100%; flex: 1; border-radius: 20px; background-color: #ffffff; }
 .signup-page .logo-box{ width: 50%; padding-left: 50px; padding-top: 50px; }
 .signup-page .logo-box img{ width: 200px; }
-.signup-page form{ width: 70%; height: 100%; margin: 50px auto; /*to centralize the form vertically*/padding: 25px; }
+.signup-page form{ width: 70%; height: 100%; margin: 50px auto;padding: 25px; }
 .signup-page form p{ font-size: 12px; color: #666666; }
 .signup-page .form-header{ font-size: 50px; font-family: 'Poppins'; }
 .signup-page form label{ color: #000000; font-size: 20px; font-weight: 700; }
@@ -38,8 +38,8 @@ input[type=text],[type=email],[type=password], textarea {-webkit-transition: all
 .signup-page form .forgot-pass{ color: #000000; text-decoration: underline; padding-left: 30%; font-size: 12px; }
 .signup-page form .forgot-pass:hover{ color: #02642e; }
 .signup-page form .social-login{ width: 100%; }
-.signup-page form .social-header{ width: 100%; display: flex; /* margin: 10px auto; */ }
-.signup-page form .social-header  .head{ flex: 1;text-align: center; }
+.signup-page form .social-header{ width: 100%; display: flex;  } */
+/* .signup-page form .social-header  .head{ flex: 1;text-align: center; }
 .signup-page form .social-header .line1, .line2{ flex: 1; padding-top: 3%; }
 .signup-page form .social-login .social-links{ display: flex; width: 70%; margin: 20px auto; }
 .signup-page form .social-login .social-links .facebook, .signup-page form .social-login .social-links .twitter,
@@ -50,27 +50,27 @@ input[type=text],[type=email],[type=password], textarea {-webkit-transition: all
 .image-banner{ max-height: 100%; flex: 1; }
 .image-banner img{ width: 100%; height: 100%; }
 .form-footer{ width: 60%; margin: 50px auto; }
-.form-footer p{ font-size: 12px; }
+.form-footer p{ font-size: 12px; } */
 /************************* AUTH STYLING *************************/
 
 
 /************************* HEADER STYLING *************************/
 header{ height: 66px; width: 100%; background: #ffffff;}
 header .items{ width: 100%; display: flex; }
-header .items .logos{ flex: 1; }
+header .items .logos{ flex: 1; } 
 header .items .logos .edapp-logo img{ width: 150px; margin-left: 1em; margin-right: 3em; }
 header .items .logos .sd-logo img{ width: 70px; margin-top: 5px; }
 header .items .icons{ display: flex; }
 header .items .icons .search-sec .search-input{ width: 200px; margin-top: 12px; margin-right: 10px; line-height: 1.5rem; font-size: 12px; background: #F3F3FC; border: 1px solid #d8d8db;border-radius: 20px;padding: .3rem 1rem;display: block;outline: none;color: #000000;}
-header .items .icons .lamp{ border: 1px  solid #000000;height: 40px;width: 40px;margin-top: 10px;margin-right: 10px;float: right;border-radius: 10px;background: #000000;cursor: pointer;}
+/* header .items .icons .lamp{ border: 1px  solid #000000;height: 40px;width: 40px;margin-top: 10px;margin-right: 10px;float: right;border-radius: 10px;background: #000000;cursor: pointer;}
 header .items .icons .lamp img{width: 30px;margin-top: 5px;margin-left: 3px;}
 header .items .icons .lamp span{height:auto;z-index: 0;color: #22A45D;display: none;width:80px;border-radius: 5px;font-size: 12px;}
-header .items .icons .lamp:hover span{display: block;}
-header .items .icons .chats{position:relative; border: 1px  solid #d8d8db;height: 40px;width: 40px;margin-top: 10px;text-align: center; margin-right: 10px;border-radius: 10px;background: #f2f4f6;cursor: pointer;}
+header .items .icons .lamp:hover span{display: block;} */
+/* header .items .icons .chats{position:relative; border: 1px  solid #d8d8db;height: 40px;width: 40px;margin-top: 10px;text-align: center; margin-right: 10px;border-radius: 10px;background: #f2f4f6;cursor: pointer;}
 header .items .icons .chats:hover .chat-dropContent{display: block;}
 header .items .icons .chats img{ width: 30px;margin-top: 5px}
 header .items .icons .chats .chat-dropContent{width: 300px;max-height: 200px;float: left;right: 0px;overflow-y: auto;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);list-style: none; display: none; position: absolute; background-color: #d8d8db;z-index: 88888;margin-top: 0px;border-radius: 10px;}
-header .items .icons .chats .chat-dropContent a {border-bottom: 1px solid #fff; color: black;padding: 5px 5px;text-decoration: none;display: block;font-weight: 700;}
+header .items .icons .chats .chat-dropContent a {border-bottom: 1px solid #fff; color: black;padding: 5px 5px;text-decoration: none;display: block;font-weight: 700;} */
 header .items .icons .profile-pic{height: 40px;width: 40px;margin-top: 10px;margin-right: 10px;position: relative;cursor: pointer;}
 header .items .icons .profile-pic:hover .dropdown-content{display: block;}
 header .items .icons .profile-pic img{width: 100%;height: 100%;border-radius: 100%;}
@@ -106,9 +106,9 @@ header .items .icons .username  .title{font-size: 12px;color: #666666;}
 .dashboard-wrapper .dashboard-content .header-box .heading{padding: 40px;padding-right: 40px;}
 .dashboard-wrapper .dashboard-content .header-box .heading .title{font-size: 20px;}
 .dashboard-wrapper .dashboard-content .header-box .heading .bio{font-size: 15px;color: #666666;}
-.dashboard-wrapper .dashboard-content .stats{width: 100%;height: 200px;display: flex;margin-top: 20px;border-radius: 5px;}
-.dashboard-wrapper .dashboard-content .stats .stat-one{margin-right: 20px;width: 250px;}
-.dashboard-wrapper .dashboard-content .stats .stat-one .week{flex: 1;background: #fafbfc;height: 45%;margin-bottom: 20px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+/* .dashboard-wrapper .dashboard-content .stats{width: 100%;height: 200px;display: flex;margin-top: 20px;border-radius: 5px;}
+.dashboard-wrapper .dashboard-content .stats .stat-one{margin-right: 20px;width: 250px;} */
+/* .dashboard-wrapper .dashboard-content .stats .stat-one .week{flex: 1;background: #fafbfc;height: 45%;margin-bottom: 20px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
 .dashboard-wrapper .dashboard-content .stats .stat-one .week .amount .cal{padding: 10px;font-size: 12px;color: #666666;}
 .dashboard-wrapper .dashboard-content .stats .stat-one .week .amount .money,
 .dashboard-wrapper .dashboard-content .stats .stat-one .income .money{font-size: 20px;font-weight: 700;padding-left: 10px;}
@@ -118,7 +118,7 @@ header .items .icons .username  .title{font-size: 12px;color: #666666;}
 .dashboard-wrapper .dashboard-content .stats .stat-two{flex: 1;background:#fafbfc;margin-right: 20px;height: 100%;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);text-align: center; }
 .dashboard-wrapper .dashboard-content .stats .stat-two .rev{color: #666666;font-size: 12px;padding-left: 5px;}
 .dashboard-wrapper .dashboard-content .stats .stat-two .revenue{font-size: 20px;font-weight: 700;padding-left: 60%;}
-.dashboard-wrapper .dashboard-content .stats .stat-three{flex: 1;width: 100%;background: #fafbfc;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+.dashboard-wrapper .dashboard-content .stats .stat-three{flex: 1;width: 100%;background: #fafbfc;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); } */
 .dashboard-wrapper .dashboard-content .form-wrapper{width: 100%;background: #fafbfc;height: auto;margin-top: 20px;border-radius: 5px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
 .dashboard-wrapper .navigation li a.active{border-bottom: 2px solid #22A45D; font-weight: 600;}
 .dashboard-wrapper .navigation img{width: 20px;}
@@ -131,13 +131,13 @@ header .items .icons .username  .title{font-size: 12px;color: #666666;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box label{font-size: 12px;}
 
 /*////////////////////////////////////// Profile Styling ///////////////////////////////////////////////////*/
-.dashboard-wrapper .dashboard-content .form-wrapper .form-box form {display: flex;width: 100%;}
+/* .dashboard-wrapper .dashboard-content .form-wrapper .form-box form {display: flex;width: 100%;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-details{background-color: #DDDDDD;font-size: 15px; padding: 5px;border-radius: 5px;margin-bottom: 5px;width: 100%;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit{flex: 1;width: 100%;margin-right: 30px;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .profile-box{border-radius: 100%;width: 100px; height: 100px;border: 2px solid #22A45D;margin: 50px auto;}
-.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .profile-box img{width: 100%;height: 100%;border-radius: 100%;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .profile-box img{width: 100%;height: 100%;border-radius: 100%;} */
 
-.profile-edit .profile-box img:hover{opacity: 0.9;}
+/* .profile-edit .profile-box img:hover{opacity: 0.9;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads{flex:1; display: flex;font-size: 12px;text-align: center;width: 100%;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads .capture{flex: 1;margin: auto;text-align: center;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .profile-edit .uploads img:hover{background-color: #dadbdb;}
@@ -154,7 +154,7 @@ header .items .icons .username  .title{font-size: 12px;color: #666666;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .form-three{flex: 1;width: 100%;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .form-three textarea{width: 100%;}
 .dashboard-wrapper .dashboard-content .form-wrapper .form-box .buttons{display:flex; padding-left: 100px;padding-top: 100%;}
-.dashboard-wrapper .dashboard-content .form-wrapper .form-box .buttons .btn {margin-right: 5px;}
+.dashboard-wrapper .dashboard-content .form-wrapper .form-box .buttons .btn {margin-right: 5px;} */
 
 /************************** Weather pages styling ******************************/
 .dashboard-wrapper .dashboard-content .form-wrapper .weather-search{border-top: 1px solid #d8d8db;margin-top: 30px;}
@@ -194,3 +194,4 @@ header .items .icons .username  .title{font-size: 12px;color: #666666;}
 .dashboard-wrapper .dashboard-content .form-wrapper .weather-data .data .data3 p{font-size: 15px;}
 .dashboard-wrapper .dashboard-content .form-wrapper .weather-data #map {flex:7; height: 450px;width: 100%;}
 /************************* DASHBOARD CONTENT STYLING *************************/
+

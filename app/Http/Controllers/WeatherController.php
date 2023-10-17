@@ -21,7 +21,7 @@ class WeatherController extends Controller
         try {
             // Getting user's latitude and longitude from ip address
             $ip = $request->ip(); //Dynamic IP address
-            $details = GeoLocation::lookup('154.160.26.249');//154.160.26.249
+            $details = GeoLocation::lookup($ip);//154.160.26.249
          
             $latitude = $details->getLatitude();
             $longitude = $details->getLongitude();
@@ -67,7 +67,7 @@ class WeatherController extends Controller
         try {
             // Getting user's latitude and longitude from ip address
             $ip = $request->ip(); //Dynamic IP address
-            $details = GeoLocation::lookup('154.160.26.249');
+            $details = GeoLocation::lookup($ip);
          
            
         } catch (Exception $e){
@@ -153,7 +153,7 @@ class WeatherController extends Controller
         try {
             // Getting user's latitude and longitude from ip address
             $ip = $request->ip(); //Dynamic IP address
-            $details = GeoLocation::lookup('154.160.26.249');
+            $details = GeoLocation::lookup($ip);
 
     
             $latitude = $details->getLatitude();
@@ -186,19 +186,15 @@ class WeatherController extends Controller
     //Current weather page view
     public function currentWeatherView()
     {
-        if(Auth::check()){
-            return view('current-weather');
-        }
-        return redirect("login")->withSuccess('Opps! You do not have access');
+      
+        return view('current-weather');
+
     }
 
     //Weather forecast page view
     public function weatherForecastView()
     {
-        if(Auth::check()){
-            return view('weather-forecast');
-        }
-        return redirect("login")->withSuccess('Opps! You do not have access');
+        return view('weather-forecast');
     }
 
 
@@ -206,10 +202,7 @@ class WeatherController extends Controller
     // Sounding page
     public function sounding()
     {
-        if (Auth::check()){
-            return view('sounding');
-        }
-        return redirect("login")->withSuccess('Opps! You do not have access');
+        return view('sounding');  
     }
 
 
