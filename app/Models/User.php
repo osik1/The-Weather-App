@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -21,18 +21,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'social_id',
-        'social_type',
-        'avatar',
-       
-    ];
-
-    protected $guarded= [
-        'role',// role should be 4 (user, admin, bank admin, and  HomeHub admin)
     ];
 
     /**
-     * The attributes that should be hidden for serialization. 
+     * The attributes that should be hidden for serialization.
      *
      * @var array<int, string>
      */
@@ -47,28 +39,7 @@ class User extends Authenticatable
      * @var array<string, string>
      */
     protected $casts = [
-        'email_verified_at' => 'datetime', 
+        'email_verified_at' => 'datetime',
+        'password' => 'hashed',
     ];
-
-
-     /**
-     * Route notifications for the SMS Vonage channel.
-     */
-    public function routeNotificationForVonage()
-    {
-        return $this->phone;
-    }
-
-
-    /**
-     * Route notifications for the mail channel.
-     */
-    public function routeNotificationForMail()
-    {
-        return $this->email;
-
-        // Return email address and name...
-        return [$this->email => $this->name];
-    }
-
 }
