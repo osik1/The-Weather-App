@@ -13,8 +13,6 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('send-weather-forecast-to-users')->everyFiveMinutes();//Testing
-        $schedule->command('send-weather-forecast-to-users')->weekly('21:00')->emailOutputOnFailure('osiknewton9@gmail.com');//Sundays 9pm
     }
 
     /**

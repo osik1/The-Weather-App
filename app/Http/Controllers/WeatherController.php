@@ -1,11 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-use GuzzleHttp\Client;
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Http;
 use RakibDevs\Weather\Exceptions\WeatherException;
 use RakibDevs\Weather\Weather;
@@ -180,6 +178,15 @@ class WeatherController extends Controller
         }
     }
 
+
+    
+    // Dashboard view function
+    public function dashboard()
+    {
+       
+        return view('dashboard');
+        
+    }
 
 
     // PAGE VIEWS
